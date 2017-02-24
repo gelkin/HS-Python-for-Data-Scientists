@@ -55,4 +55,4 @@ ChainLink(chain, TryFile())
 ChainLink(chain, TryFile())
 
 x = 10
-print(chain[0](x, "./DataFolder"))
+print(chain[0]('x', "./DataFolder"))
